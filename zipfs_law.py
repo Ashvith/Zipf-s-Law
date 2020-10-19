@@ -37,7 +37,6 @@ plt.figure(figsize=(20,20))  #had to use this to increase the plot resolution
 plt.ylabel("Frequency")
 plt.xlabel("Words")
 plt.xticks(rotation=90)    #to rotate x-axis values
-
 for word , freq in collection[:30]:
     plt.bar(word, freq)    
 plt.show()
